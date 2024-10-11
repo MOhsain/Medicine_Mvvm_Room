@@ -1,29 +1,28 @@
-# Medicine_Mvvm_Room
-TestAssignment for Android Developer Job
+# TestAssignment for Android Developer Job
 
-**Test Submitted by Mohsin Ikram**
+# Test Submitted by Mohsin Ikram
 
-**Project Description**
+# Project Description
 This app is a simple MVVM application developed in Kotlin using Kotlin, designed to facilitate user authentication and display medicine information. The following core features have been implemented:
 
-**Core Features**
+# ore Features
 a. User Authentication
 
 A simple login screen allows users to log in without requiring any validation. Users can enter their username/email, and upon clicking the login button, they will be directed to the home screen.
-**b. Greeting Message**
+# b. Greeting Message
 
 After logging in, the app greets the user based on the time of day. A text box displays a personalized greeting message, along with the username/email entered during login. The greeting updates dynamically, reflecting "Good Morning," "Good Afternoon," or "Good Evening" based on the current hour.
-**c. Medicine Display**
+# c. Medicine Display
 
 On the home screen, the app fetches and displays a list of medicines, showcasing their name, dose, and strength. This data is retrieved from a JSON API (mocked using Mocky.io) and is presented in a scrollable lazy list, where each medicine is represented as a card. Tapping on a card navigates to a detailed view showing the same information.
-**d. Room Database Integration**
+# d. Room Database Integration
 
 The app utilizes Room Database to locally store medicine data. This allows the application to cache information and reduces the need for repeated API calls. The data is saved and retrieved seamlessly using a Room DAO.
-**f. Unit Testing**
+# f. Unit Testing
 
 To ensure the robustness of the application, at least three unit tests have been implemented. These tests cover key use cases such as verifying data retrieval from the Room database and validating the correctness of greeting messages based on the time of day.
 
-**MVVM App Architecture talks**
+# MVVM App Architecture talks
 
 Build a MVVM Android app architecture - Google I/O'19
 Project Characteristics
