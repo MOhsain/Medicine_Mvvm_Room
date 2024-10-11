@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Med Mvvm</string>
+    <string name="error_text">Error Please Try Again</string>
+    <string name="dialoge_text">Please wait! This may take a moment.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="medlist">Medicines List</string>
+    <string name="medDetails">Medicine Details</string>
+    <string name="name">Name</string>
+    <string name="dose">Dose</string>
+    <string name="strength">Strength</string>
+
+
+</resources>
